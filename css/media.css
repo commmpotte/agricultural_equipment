@@ -1,0 +1,484 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1690px) {
+	.form {
+		position: relative;
+		background: url(../img/bgc-form.png) no-repeat -50% center, url(../img/main-form.png) 50% 150px no-repeat;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.equipment__image {
+		margin-left: -441px;
+	}
+	.form {
+		position: relative;
+		background: url(../img/main-form.png) 75% 150px no-repeat;
+	}
+	.form .section-title{
+		margin-top: 70px;
+	}
+	.block-form__radio {
+		padding-right: 0;
+	}
+	.main-form .checkbox {
+		white-space: normal;
+	}
+	.credit-block__form {
+		padding: 25px 20px;
+	}
+	.credit-programms li {
+		max-width: 110px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header__contacts {
+		display: none;
+	}
+	.header__bottom {
+		display: none;
+	}
+	.section-title {
+		margin-top: 30px;
+	}
+	.section-title {
+		font-size: 30px;
+		line-height: 37px;
+	}
+	.equipment__image {
+		display: none;
+	}
+	.equipment-description {
+		margin-top: 30px;
+	}
+	.equipment-button {
+		margin-top: 30px;
+	}
+	.main-block__form {
+		max-width: 500px;
+	}
+	.form .main-block__form {
+		float: right;
+	}
+	.form {
+		position: relative;
+		background-position: -48% 150px;
+	}
+	.form .main-btn,
+	.form .main-btn span {
+		width: 100%;
+		max-width: 100%;
+	}
+	.checkbox-wrap {
+		display: flex;
+		justify-content: center;
+	}
+	.credit {
+		margin-top: 60px;
+	}
+	.credit-items {
+		margin-bottom: 50px;
+	}
+	.credit .main-block__form {
+		margin: 0 auto;
+		float: none;
+	}
+	.block-form__radio {
+		padding-right: 30px;
+	}
+	.agrograd-items__title,
+	.credit-programms__title {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.credit-programms {
+		margin-bottom: 10px;
+	}
+	.agrograd-items__title {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	.agrograd-img img {
+		max-width: 25%;
+	}
+	.agrograd-text {
+		margin-bottom: 30px;
+	}
+	.exhibition-slider .slick-prev {
+		left: -10px;
+	}
+	.exhibition-slider .slick-next {
+		right: -10px;
+	}
+	.exhibition-card {
+		max-width: 360px;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	.questions .main-block__form {
+		margin: 0 auto;
+	}
+	.tablet_right {
+		text-align: right;
+	}
+	.btn_top {
+		margin-top: 20px;
+	}
+	.btn_nav {
+		display: inline-block;
+	}
+	.header__bottom {
+		position: absolute;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		z-index: 900;
+		overflow: auto;
+	}
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 900;
+		background-color: #fff;
+		box-shadow: 0 0 10px #ccc;
+	}
+	.logo img {
+    max-width: 150px;
+}
+.btn-simple {
+    padding: 13px 20px;
+    }
+    .menu {
+    	display: block;
+    }
+    .menu:before {
+    	display: none;
+    }
+    .header__bottom {
+    	padding-bottom: 40px;
+    	background-color: #212421;
+    }
+    .menu li {
+    	display: block;
+    }
+    .menu li a {
+    	padding: 10px 15px;
+    	border-bottom: 1px #fff solid;
+    	display: block;
+    }
+    .menu li:last-child a {
+    	border: none;
+    }
+    .header .header-contacts {
+    	margin-right: 15px;
+    	margin-left: auto;
+    }
+    .wrapper {
+    	padding-top: 65px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.logo img {
+		max-width: 150px;
+	}
+	.btn-simple {
+		font-size: 14px;
+		padding: 14px 30px;
+	}
+	.section-title {
+		font-size: 25px;
+		line-height: 34px;
+	} 	
+	.equipment-descr {
+		font-size: 16px;
+		line-height: 21px;
+		position: relative;
+	}
+	.equipment-descr:before {
+		bottom: 7px;
+		top: auto;
+		left: -20px;
+	}
+	.equipment-service:before {
+		top: 4px;
+	}
+	.slider-catalog .slick-arrow {
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: auto;
+		transform: none;
+	}
+	.slider-catalog .slick-prev {
+		left: -70px;
+	}
+	.slider-catalog .slick-next {
+		right: -70px;
+	}
+	.slider-catalog {
+		padding-bottom: 60px;
+	}
+	.form .main-block__form {
+		float: none;
+	}
+	.form {
+		background-image: none;
+	}
+	.form .main-block__form {
+		margin-top: 30px;
+	}
+	.credit {
+		padding-top: 15px;
+	}
+	.credit-descr {
+		margin: 0px 0px 35px 0px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.credit-programms {
+		flex-wrap: wrap;
+	}
+	.credit-programms li {
+		width: 100%;
+		max-width: 32%;
+		margin-bottom: 15px;
+	}
+	.agrograd .section-title {
+		margin: 40px 0px 30px 0px;
+	}
+	.exhibition-img {
+		height: 300px;
+	}
+	.steps-img {
+		margin-bottom: 20px;
+	}
+	.steps-items {
+		margin-bottom: 25px;
+	}
+	.question__name {
+		font-size: 16px;
+	}
+	.footer .row > .align_center {
+		order: -1;
+		margin-bottom: 15px;
+	}
+	.footer .section-title:before {
+		display: none;
+	}
+	.footer .section-title {
+		margin-bottom: 15px;
+	}
+	.tablet_right {
+		text-align: center;
+	}
+	.footer-bottom {
+		text-align: center;
+	}
+	.footer-bottom .row > div {
+		padding: 10px 15px;
+	}
+	.footer-bottom .align_right {
+		text-align: center;
+	}
+	.btn_top {
+		margin-top: 0;
+	}
+	.questions .section-title {
+		margin-top: 15px;
+	}
+.credit-programms {
+	margin-bottom: 0;
+}
+.row_credits {
+    margin-bottom: 30px;
+}
+.fancybox-close {
+	right: 15px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.btn-simple__callback {
+		font-size: 0;
+		padding: 0;
+		line-height: 0;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.btn-simple__callback i {
+		display: block;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.section-title {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.equipment-description {
+		margin-left: 0;
+		font-size: 13px;
+	}
+	.equipment-descr:before {
+		display: none;
+	}
+	.equipment-description p {
+		white-space: nowrap;
+	}
+	.equipment-descr {
+		font-size: 14px;
+	}
+	.equipment-button .main-btn span {
+		padding-left: 15px;
+		padding-right: 15px; 
+	}
+	.equipment-service-block {
+    padding: 15px;
+    margin-top: 40px;
+}
+.catalog .section-title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.form .section-title {
+    font-size: 24px;
+    margin-top: 40px;
+    }
+    .block-form {
+    	padding: 25px 15px;
+    }
+    .section-title {
+    margin-top: 15px;
+}
+    .credit-title {
+    	margin-bottom: 20px;
+    }
+    .credit-descr {
+    margin: 0px 0px 20px 0px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.credit-items {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.credit-items .section-title:before {
+	display: none;
+}
+.credit-programms li {
+    width: 100%;
+    max-width: 31%;
+    height: 105px;
+    margin-bottom: 15px;
+}
+.agrograd-items {
+	margin-left: 0;
+}
+.agrograd-items__title:before {
+	display: none;
+}
+.agrograd-img {
+    margin: 0px 0px 35px 0px;
+    padding: 11px 15px;
+}
+.agrograd-img img {
+    max-width: 30%;
+}
+.exhibition-text {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 30px 0px;
+}
+.exhibition-contacts {
+	font-size: 14px;
+}
+.exhibition__name {
+    padding: 0px 0px 0px 35px;
+    }
+    .exhibition-descr {
+    	padding-left: 35px;
+    }
+    .section-title.steps__title {
+    margin: 35px 0px 39px 0px;
+}
+    .exhibition__name::before {
+    	left: 16px;
+    }
+    .question__answer {
+    	font-size: 14px;
+    	line-height: 22px;
+    	padding: 15px;
+    }
+    .question__name {
+    	font-size: 14px;
+    	line-height: 21px;
+    	padding-left: 15px;
+    }
+    .footer-bottom {
+    	padding-top: 15px;
+    }
+    .footer .section-title {
+    	font-size: 17px;
+    }
+    .questions {
+    	padding-bottom: 50px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.header__bottom {
+	height: auto !important;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+@media only screen and (min-width : 1600px) {
+	
+}
+@media only screen and (min-width : 2100px) {
+
+}
+@media only screen and (max-height: 795px) {
+	
+}
