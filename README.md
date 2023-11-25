@@ -23,10 +23,3 @@ To view the site, simply open the `index.html` file in your preferred web browse
 - **JavaScript:** Provides interactivity and dynamic elements.
 
 
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
-
