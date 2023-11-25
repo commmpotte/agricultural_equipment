@@ -22,13 +22,7 @@ To view the site, simply open the `index.html` file in your preferred web browse
 
 - **JavaScript:** Provides interactivity and dynamic elements.
 
-## Contributing
 
-If you would like to contribute to the project or report issues, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
