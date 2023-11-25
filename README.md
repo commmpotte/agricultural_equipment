@@ -1,6 +1,38 @@
-# agricultural_equipment
-Landing simple one-page site just for a client.
+# Agricultural Machinery Information Site
 
-Links doesn't work here. Just a functional things. 
+This website provides information about various agricultural machinery. It is a static site built using HTML, CSS, and JavaScript.
 
-The main accent on a work with libs and site layout.
+## Features
+
+- **Responsive Design:** The site is designed to work seamlessly on various devices, including desktops, tablets, and mobile phones.
+
+- **Information Pages:** Each page provides detailed information about specific types of agricultural machinery, including specifications and use cases.
+
+- **Interactive Elements:** JavaScript is used to enhance user interaction. For example, you might include interactive sliders, image galleries, or filtering options.
+
+## Usage
+
+To view the site, simply open the `index.html` file in your preferred web browser.
+
+## Technologies Used
+
+- **HTML5:** Used for structuring the content of the website.
+
+- **CSS3:** Responsible for styling and layout.
+
+- **JavaScript:** Provides interactivity and dynamic elements.
+
+## Contributing
+
+If you would like to contribute to the project or report issues, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc.
+
